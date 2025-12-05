@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "titulo": "Adotando Aumigos",
+        "descricaoCurta": "Adoção de pets",
+        "descricaoDetalhada": "Site desenvolvido para matéria técnica do 2° ano do Ensino Médio. Consiste em um site para a adoção de pets.",
+        "imagens": [
+            "/assets/adotandoaumigos.png",
+            "/assets/adotandoaumigos2.png",
+            "/assets/adotandoaumigos3.png"
+        ],
+        "codigoUrl": "https://github.com/blukasavicus/Adotando-Aumigos",
+        "siteUrl": "https://blukasavicus.github.io/Adotando-Aumigos/"
+    },
+    {
+        "id": 2,
+        "titulo": "Fetch Auaus",
+        "descricaoCurta": "APP desenvolvido com Expo e API",
+        "descricaoDetalhada": "Gera fotos aleatórias de cachorros utilizando a DogApi. As fotos podem ser favoritadas e são armazenadas localmente",
+        "imagens": [
+            "/assets/fauaus.jpeg",
+            "/assets/fauaus2.jpeg",
+            "/assets/fauaus3.jpeg"
+        ],
+        "codigoUrl": "https://github.com/blukasavicus/Fetch-Auaus"
+    },
+    {
+        "id": 3,
+        "titulo": "Projeto Bootstrap",
+        "descricaoCurta": "Site desenvolvido para matéria técnica do 2° ano do Ensino Médio utilizando Bootstrap.",
+        "descricaoDetalhada": "Site desenvolvido com Bootstrap sobre a banda inglesa de post-punk, Siouxsie and The Banshees",
+        "imagens": [
+            "/assets/satbsite.png",
+            "/assets/satb2.png",
+            "/assets/satb3.png"
+        ],
+        "codigoUrl": "https://github.com/blukasavicus/Projeto-bootstrap",
+        "siteUrl": "https://blukasavicus.github.io/Projeto-bootstrap/"
+    }
+]
