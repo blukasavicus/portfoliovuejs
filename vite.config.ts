@@ -1,11 +1,16 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type UserConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [vue()],
-  build: {
-    outDir: './docs',
-    emptyOutDir: true, // also necessary
+export default defineConfig(({command}) => {
+  let ret = {
+    plugins: [vue()],
+    base: '/'
+  } satisfies UserConfig
+
+  if (command==='build') {
+    ret['base'] = "/portfoliovuejs/"
   }
+
+  return ret
 })
